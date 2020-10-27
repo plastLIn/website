@@ -1,0 +1,47 @@
+
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block main %}
+
+<header>
+	<div class="logo">
+		Прощай PHP :(
+		<img src="{% static "images/respect.jpg" %}" style="">
+	</div>
+</header>
+
+<div class="timesheet">
+	<div class="masseges">
+		<div id="massege_counter"></div>
+	</div>
+	<div style="height: 30px;"></div>
+	<div id="current-lesson">
+		<div class="lesson">Название</div>
+		<div class="name">Преподаватель</div>
+		<div class="time">Врема пары</div>
+	</div>
+	<div style="height: 30px;"></div>
+	<div class="all-lessons">
+
+</div>
+<div class="contact-form">
+	<form action="scripts/contact.php" method="POST">
+		<input type="email" placeholder="email adress to answer" id="email" class="contact" name="email" />
+		</br>
+		<textarea placeholder="Your massage" id="massege" class="contact" name="massege"></textarea>
+		</br>
+		<input type="submit" value="Отправить" />
+	</form>
+</div>
+</div>
+<footer>
+
+</footer>
+
+{% endblock %}

@@ -1,0 +1,178 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(196, 236, 236);
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('17510.ttf');
+    /*src: url('../fonts/WebFont.eot?iefix') format('ttf'),
+
+url('../fonts/WebFont.woff') format('woff'),
+
+url('../fonts/WebFont.ttf') format('truetype'),
+
+url('../fonts/WebFont.svg#webfont') format('svg');
+*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    margin: 0 auto;
+    background-color: #127027;
+    text-align: center;
+    bottom: 150px;
+    min-width: 560px;
+    max-width: 800px;
+}
+
+.masseges {
+    background-color: burlywood;
+    padding: 5px;
+}
+
+.logo {
+    margin: 0 auto;
+    font-family: 'Josefin Sans';
+    color: white;
+    font-size: 50px;
+}
+
+.header-bar {
+    background-color: #4FA5FF;
+    position: unset;
+    display: flex;
+}
+
+.clock {
+    width: 300px;
+    min-width: 150px;
+    background-color: #4FC3FF;
+    font-family: 'MyWebFont';
+    height: 40px;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    margin: 1px;
+}
+
+.num {
+    display: inline;
+    height: 35px;
+    width: 40px;
+}
+
+.timesheet {
+    min-width: 560px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+}
+
+#current-lesson {
+    background-color: grey;
+    text-align: center;
+    min-width: 520px;
+    min-height: 25px;
+    margin: 0 20px 0 20px;
+    border-radius: 12px;
+}
+
+.lesson {
+    text-align: center;
+    font-size: 17px;
+}
+
+.name {
+    margin: 15px 0 15px 0;
+    text-align: left;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.time {
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.day-lessons {
+    display: inline-block;
+    min-width: 50px;
+    height: 75px;
+    width: 180px;
+    margin: 0 5px 3px 5px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.all-lessons {
+    margin: 0 auto;
+    min-width: 520px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+.news {}
+
+.contact-form {
+    background-color: aqua;
+    display: inherit;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 750px;
+    min-width: 300px;
+    padding: 3px 7px 3px 7px;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+
+textarea {
+    height: 250px;
+}
+
+footer {
+    height: 67px;
+    background-color: rgba(111, 43, 16, 0.72);
+}
+
+.mas {
+    min-width: 400px;
+    margin: 3px 3px 3px 3px;
+    background-color: darkgrey;
+}
+
+.mas_buttons {
+    display: flex;
+}
+
+.mas_but {
+    background-color: cyan;
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+}
+
+.header-bar-button {
+    background-color: rgb(91, 196, 214);
+    border-color: rgba(111, 43, 16, 1);
+    height: 40px;
+    text-align: center;
+    width: 100px;
+    border-width: 20px;
+    -webkit-text-emphasis-style: sesame;
+}
